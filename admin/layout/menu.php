@@ -1,22 +1,35 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="<?=$SITE_URL?>/layout?trang_chu">Trang chủ</a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="<?=$ADMIN_URL?>/loai-hang/">Loại hàng</a></li>
-        <li><a href="<?=$ADMIN_URL?>/hang-hoa/">Hàng hóa</a></li>
-        <li><a href="<?=$ADMIN_URL?>/khach-hang/">Khách hàng</a></li>
-        <li><a href="<?=$ADMIN_URL?>/binh-luan/">Bình luận</a></li>
-        <li><a href="<?=$ADMIN_URL?>/thong-ke/">Thống kê</a></li>
+
+
+<div class="container">
+  <div class="admin_left">
+      <ul class="ul_main">
+          <li><a href="">Danh mục</a>
+              <ul>
+                  <li><a href="">Thêm danh mục</a></li>
+                  <li><a href="">Danh sách danh mục</a></li>
+              </ul>
+          </li>
+
+          <li><a href="">Sản phẩm</a>
+              <ul>
+                  <li><a href="">Thêm danh sản phẩm</a></li>
+                  <li><a href="">Danh sách sản phẩm</a></li>
+              </ul>
+          </li>
+
+          <li><a href="">Bình luận</a>
+              <ul>
+                  <li><a href="">Quản lí bình luận</a></li>
+                  <li><a href="">Danh sách bình luận</a></li>
+              </ul>
+          </li>
+
+          <li><a href="">Thống kê</a>
+              <ul>
+                  <li><a href="">Quản lí thống kê</a></li>
+                  <li><a href="">Quản lí đơn hàng</a></li>
+              </ul>
+          </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+  </div>
+</div>

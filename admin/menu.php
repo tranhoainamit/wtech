@@ -19,7 +19,7 @@
 
           <li><a href="">Bình luận</a>
               <ul>
-                  <li><a href="">Quản lí bình luận</a></li>
+                  <li><a href="index.php?act=binh_luan">Quản lí bình luận</a></li>
                   <li><a href="">Danh sách bình luận</a></li>
               </ul>
           </li>

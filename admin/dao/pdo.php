@@ -1,7 +1,7 @@
 <?php
 // Kết nối đến CSDL sử dụng PDO
 function pdo_get_connection(){
-    $dburl = "mysql:host=localhost;dbname=xshop;charset=utf8";
+    $dburl = "mysql:host=localhost;dbname=wtech;charset=utf8";
     $username = 'root';
     $password = '';
     $conn = new PDO($dburl, $username, $password);
